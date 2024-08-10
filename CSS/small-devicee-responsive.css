@@ -14,11 +14,23 @@
 
     #donate {
         max-width: 400px;
+        margin-top: 50px;
     }
-    .taka-container{
+
+    .taka-container {
         flex-wrap: wrap;
     }
-    .other-amount{
+
+    .other-amount {
         margin-top: 320px;
+    }
+
+    #donate-plan {
+        margin-top: 50px;
+    }
+
+    .plan-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
     }
 }
