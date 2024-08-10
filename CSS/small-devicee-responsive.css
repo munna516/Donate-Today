@@ -25,12 +25,22 @@
         margin-top: 320px;
     }
 
-    #donate-plan {
+    #donate-plan,
+    #contribute {
         margin-top: 50px;
     }
 
     .plan-container {
         grid-template-columns: repeat(1, 1fr);
         padding: 20px;
+    }
+
+    .contribution-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+    }
+
+    .contribution button {
+        width: 60%;
     }
 }

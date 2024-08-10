@@ -39,6 +39,14 @@ body {
     cursor: pointer;
 }
 
+#donate-plan,
+#contribute {
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 130px;
+
+}
+
 /* Header Styles */
 header {
     height: 670px;
@@ -148,13 +156,6 @@ header {
 }
 
 /* Donate Plan */
-#donate-plan {
-    max-width: 1120px;
-    margin: 0 auto;
-    margin-top: 130px;
-
-}
-
 .plan-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -195,4 +196,54 @@ header {
 .plan-3 {
 
     background: rgb(233, 233, 203);
+}
+
+/* contribution */
+.contribution-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.contribution-title {
+    color: var(--primary-color);
+    font-family: Inter;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.contribution-description-1,
+.contribution-description-2 {
+    color: var(--secondary-color);
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-weight: 400;
+
+}
+
+.contribution-description-1 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+
+.contribution-description-2 {
+    margin-bottom: 30px;
+}
+
+.contribution img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.contribution {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contribution button {
+    width: 50%;
 }
