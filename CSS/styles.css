@@ -12,7 +12,6 @@
 /* Shared Styles */
 body {
     max-width: 1440px;
-    border: 2px solid red;
     margin: 0 auto;
 }
 
@@ -266,7 +265,7 @@ header {
 }
 
 #email {
-    color:var(--secondary-color);
+    color: var(--secondary-color);
     font-family: Inter;
     font-size: 1rem;
     font-weight: 500;
@@ -291,4 +290,32 @@ header {
     width: 20%;
     text-align: center;
     cursor: pointer;
+}
+
+/* Footer Section */
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgb(11, 13, 23);
+    margin-top: 130px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+
+.footer-title {
+    color: rgb(255, 89, 89);
+    font-style: italic;
+    font-size: 2.8rem;
+}
+
+.footer-description {
+    color: rgb(217, 219, 225);
+    font-size: 1.5rem;
+    margin-top: 24px;
 }
