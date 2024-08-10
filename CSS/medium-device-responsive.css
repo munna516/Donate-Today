@@ -12,4 +12,16 @@
         padding: 20px;
     }
 
+    #donate {
+        max-width: 700px;
+    }
+
+    .taka-container {
+        flex-wrap: wrap;
+    }
+
+    .other-amount {
+        margin-top: 200px;
+    }
+
 }

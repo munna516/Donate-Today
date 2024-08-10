@@ -73,3 +73,73 @@ header {
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
+/* Donate Today Section */
+#donate {
+    width: 800px;
+    margin: 0px auto;
+    margin-top: 130px;
+    /* border: 2px solid green; */
+}
+
+.section-title {
+    color: var(--primary-colorF);
+    font-family: Inter;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-description {
+    color: var(--secondary-color);
+    font-family: Poppins;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.taka-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    height: 130px;
+
+}
+
+.taka {
+    color: rgb(112, 112, 112);
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 44px 25px;
+    height: 100%;
+}
+
+.taka:hover {
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 89, 89);
+    border-radius: 5px;
+    background: rgb(255, 238, 238);
+    color: rgb(255, 89, 89);
+    ;
+}
+
+.other-amount {
+    color: rgb(179, 179, 179);
+    font-family: Poppins;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hr {
+    border: 1px solid rgb(218, 218, 218);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.donate-btn {
+    text-align: center;
+}

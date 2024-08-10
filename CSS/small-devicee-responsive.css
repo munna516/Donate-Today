@@ -11,4 +11,14 @@
         font-size: 0.8rem;
         padding: 10px;
     }
+
+    #donate {
+        max-width: 400px;
+    }
+    .taka-container{
+        flex-wrap: wrap;
+    }
+    .other-amount{
+        margin-top: 320px;
+    }
 }
