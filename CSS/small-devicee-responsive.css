@@ -26,7 +26,7 @@
     }
 
     #donate-plan,
-    #contribute {
+    #contribute,#subscription {
         margin-top: 50px;
     }
 
@@ -42,5 +42,21 @@
 
     .contribution button {
         width: 60%;
+    }
+
+    .sub-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #email {
+        width: 50%;
+
+    }
+
+    #subscribe {
+
+        width: 30%;
+
     }
 }

@@ -25,16 +25,23 @@
         margin-top: 200px;
     }
 
-    #donate-plan {
+    #donate-plan,
+    #subscription,
+    #contribute {
         margin-top: 100px;
     }
 
     .plan-container {
-        grid-template-columns: repeat(1, 1fr) ;
-        padding: 20px;
-    }
-    .contribution-container{
+        grid-template-columns: repeat(1, 1fr);
         padding: 20px;
     }
 
+    .contribution-container {
+        padding: 20px;
+    }
+
+    .sub-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
